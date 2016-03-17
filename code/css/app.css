@@ -1,0 +1,253 @@
+body{
+  background-color: #f3f3f3;
+}
+p, li{
+	font-family: 'Open Sans Light', sans-serif;
+	letter-spacing: 1px;
+  color: #505050;
+}
+.center-justified p{
+  display: block;
+  font-size: 1.8rem;
+}
+.copy{
+  font-size: .7rem;
+  color:#838586;
+}
+input{
+  font-family: 'Open Sans Light', sans-serif !important;
+  font-size: .7rem !important;
+}
+.button{
+  font-family: 'Open Sans Light', sans-serif !important;
+  font-size: 1rem !important;
+  background-color: #838586
+}
+.button:hover{
+  background-color: #515151;
+}
+h2{
+  font-family: 'Gruppo', normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #505050;
+}
+.row{
+	max-width: 100%;
+}
+.top-bar{
+	background-color: #f3f3f3;
+}
+.top-bar-section ul li {
+  background-color: #f3f3f3;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover{
+	background: #f3f3f3;
+}
+
+.top-bar-section ul li > a {
+	color:#888888;
+	font-size: .875rem;
+}
+
+.top-bar.expanded .title-area {
+	background: #f3f3f3;
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+	color:#888888;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.top-bar .toggle-topbar.menu-icon a span::after {
+	box-shadow: 0 0 0 1px #888888, 0 7px 0 1px #888888, 0 14px 0 1px #888888;
+
+}
+
+.top-bar .toggle-topbar.menu-icon a::after {
+	color:#888888;
+}
+
+.orbit-bullets {
+  top:-25px;
+}
+
+.orbit-next  {
+   content: url("/CodeMS/img/Arrow_white_right.png");
+   height: 20% !important;
+}
+
+.orbit-next:hover  {
+   content: url("/CodeMS/img/Arrow_white_right.png");
+   background-color: rgba(0, 0, 0, 0.0) !important;
+}
+
+.orbit-prev  {
+   content: url("/CodeMS/img/Arrow_white_left.png");
+   height: 20% !important;
+}
+
+.orbit-prev:hover  {
+   content: url("/CodeMS/img/Arrow_white_left.png");
+   background-color: rgba(0, 0, 0, 0.0) !important;
+}
+
+#features .orbit-next  {
+   content: url("/CodeMS/img/Arrow_grey_right.png");
+   height: 20% !important;
+}
+
+#features .orbit-next:hover  {
+   content: url("/CodeMS/img/Arrow_grey_right.png");
+   background-color: rgba(0, 0, 0, 0.0) !important;
+}
+
+#features .orbit-prev  {
+   content: url("/CodeMS/img/Arrow_grey_left.png");
+   height: 20% !important;
+}
+
+#features .orbit-prev:hover  {
+   content: url("/CodeMS/img/Arrow_grey_left.png");
+   background-color: rgba(0, 0, 0, 0.0) !important;
+}
+
+.orbit-container {
+    overflow: visible !important;
+}
+
+.orbit-slides-container {
+    overflow: hidden !important;    
+}
+
+.orbit-container .orbit-prev {
+    margin-left: -70px;
+}
+.orbit-container .orbit-next {
+    margin-right: -70px;
+}
+.center-justified {
+  text-align: justify;
+  margin: 0 auto;
+  width: 68.08em;
+}
+
+#hero div{
+  padding:0;
+}
+
+#play{
+  background:url("/CodeMS/img/playBGD.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  position:relative;
+  z-index:1;
+  padding:0;
+  margin:0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#play p, #play h2{
+	color:#ffffff;
+}
+
+#control{
+  background:url("/CodeMS/img/GradientBackground.png");
+  position:relative;
+  z-index:1;
+  padding:0;
+  margin:0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom:2%;
+}
+#title{
+  margin-top: 10% !important;
+}
+#control img{
+  margin-top: 5%;
+  margin-bottom: 5%
+}
+
+#features{
+  margin-top: 4%;
+}
+
+#features img{
+  display:inline;
+  margin-top: 2%;
+  margin-bottom: 2%
+}
+
+.features li{
+  list-style-type: square;
+}
+
+#features ul{
+  margin-bottom: 5%;
+}
+
+#includes img{
+  margin-top: 2%;
+  margin-bottom: 2%
+}
+
+#intro-overview{
+  margin-bottom: 5%;
+}
+#intro-overview h2{
+  margin-top: 6%;
+  margin-bottom: 2%;
+}
+
+#intro-overview img{
+  margin-top: 2%;
+}
+
+#footer h2{
+  padding-top: 3%;
+  margin-bottom: 4%;
+}
+
+#footer ul{
+  margin-top: 45%;
+}
+
+@media only screen and (max-width: 24.938em) {
+  .button{
+    line-height: 11px;
+    padding-top: 4%;
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  p,li{
+    font-size: 12px;
+  }
+  h2{
+    font-size: 14px;
+  }
+  .center-justified {
+    text-align: justify;
+    margin: 0 auto;
+    width: 17em;
+  }
+  input{
+    font-family: 'Open Sans Light', sans-serif !important;
+    font-size: .7rem !important;
+  }
+  .button{
+    font-family: 'Open Sans Light', sans-serif !important;
+    font-size: .7rem !important;
+  }
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+
+@media only screen and (min-width: 40.063em) {
+} /* min-width 641px, medium screens */
