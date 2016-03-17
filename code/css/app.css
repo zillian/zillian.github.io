@@ -7,8 +7,7 @@ p, li{
   color: #505050;
 }
 .center-justified p{
-  display: block;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 .copy{
   font-size: .7rem;
@@ -18,13 +17,21 @@ input{
   font-family: 'Open Sans Light', sans-serif !important;
   font-size: .7rem !important;
 }
-.button{
-  font-family: 'Open Sans Light', sans-serif !important;
-  font-size: 1rem !important;
-  background-color: #838586
-}
 .button:hover{
-  background-color: #515151;
+  background-color: #838586;
+}
+#find-out-more{
+  background-color: #f38336;
+}
+#find-out-more:hover{
+  background-color: #f38336;
+}
+
+.dealerbutton{
+  font-family: 'Gruppo', normal !important;
+  font-size: 1.2rem !important;
+  font-weight:600;
+  background-color: #838586;
 }
 h2{
   font-family: 'Gruppo', normal;
@@ -73,45 +80,62 @@ h2{
   top:-25px;
 }
 
+
+.orbit-container .orbit-next > span{
+  border:none;
+}
+
+.orbit-container .orbit-prev > span{
+  border:none;
+}
+
+
 .orbit-next  {
-   content: url("/CodeMS/img/Arrow_white_right.png");
-   height: 20% !important;
+   background: url("/assets/microsites/code/img/Arrow_white_right.png") no-repeat;
+   
 }
 
 .orbit-next:hover  {
-   content: url("/CodeMS/img/Arrow_white_right.png");
+   background: url("/assets/microsites/code/img/Arrow_white_right.png") no-repeat;
    background-color: rgba(0, 0, 0, 0.0) !important;
 }
 
 .orbit-prev  {
-   content: url("/CodeMS/img/Arrow_white_left.png");
-   height: 20% !important;
+   background: url("/assets/microsites/code/img/Arrow_white_left.png") no-repeat;
+   
 }
 
 .orbit-prev:hover  {
-   content: url("/CodeMS/img/Arrow_white_left.png");
+   background: url("/assets/microsites/code/img/Arrow_white_left.png") no-repeat;
    background-color: rgba(0, 0, 0, 0.0) !important;
 }
 
 #features .orbit-next  {
-   content: url("/CodeMS/img/Arrow_grey_right.png");
-   height: 20% !important;
+   background: url("/assets/microsites/code/img/Arrow_grey_right.png") no-repeat;
+   
 }
 
 #features .orbit-next:hover  {
-   content: url("/CodeMS/img/Arrow_grey_right.png");
+   background: url("/assets/microsites/code/img/Arrow_grey_right.png") no-repeat;
    background-color: rgba(0, 0, 0, 0.0) !important;
 }
 
 #features .orbit-prev  {
-   content: url("/CodeMS/img/Arrow_grey_left.png");
-   height: 20% !important;
+   background: url("/assets/microsites/code/img/Arrow_grey_left.png") no-repeat;
+   
 }
 
 #features .orbit-prev:hover  {
-   content: url("/CodeMS/img/Arrow_grey_left.png");
+   background: url("/assets/microsites/code/img/Arrow_grey_left.png") no-repeat;
    background-color: rgba(0, 0, 0, 0.0) !important;
 }
+
+
+
+.orbit-container .orbit-prev, .orbit-container .orbit-next{
+  width:40px;
+}
+
 
 .orbit-container {
     overflow: visible !important;
@@ -130,15 +154,11 @@ h2{
 .center-justified {
   text-align: justify;
   margin: 0 auto;
-  width: 68.08em;
-}
-
-#hero div{
-  padding:0;
+  width: 57.56em;
 }
 
 #play{
-  background:url("/CodeMS/img/playBGD.jpg");
+  background:url("/assets/microsites/code/img/playBGD.jpg");
   background-attachment: fixed;
   background-position: center;
   position:relative;
@@ -156,7 +176,7 @@ h2{
 }
 
 #control{
-  background:url("/CodeMS/img/GradientBackground.png");
+  background:url("/assets/microsites/code/img/GradientBackground.png");
   position:relative;
   z-index:1;
   padding:0;
@@ -165,7 +185,7 @@ h2{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-bottom:2%;
+  padding-bottom:4%;
 }
 #title{
   margin-top: 10% !important;
@@ -198,9 +218,6 @@ h2{
   margin-bottom: 2%
 }
 
-#intro-overview{
-  margin-bottom: 5%;
-}
 #intro-overview h2{
   margin-top: 6%;
   margin-bottom: 2%;
@@ -210,44 +227,62 @@ h2{
   margin-top: 2%;
 }
 
+#intro-overview div{
+  height:100%;
+}
+
+#artist-videos{
+  margin-top:2%;
+}
+
+#artist-videos img{
+  margin-top: 2%;
+}
+
+#artist-videos div{
+  height:100%;
+}
+
 #footer h2{
   padding-top: 3%;
   margin-bottom: 4%;
 }
 
 #footer ul{
-  margin-top: 45%;
+  margin-top: 30%;
+}
+
+.flex-video{
+  height:100%;
+  padding: 0;
 }
 
 @media only screen and (max-width: 24.938em) {
-  .button{
-    line-height: 11px;
-    padding-top: 4%;
-  }
 }
 
 @media only screen and (max-width: 40em) {
   p,li{
     font-size: 12px;
   }
+
   h2{
-    font-size: 14px;
+    font-size: 1em;
   }
-  .center-justified {
-    text-align: justify;
-    margin: 0 auto;
-    width: 17em;
+
+  .dealerbutton{
+    font-family: 'Gruppo', normal !important;
   }
-  input{
-    font-family: 'Open Sans Light', sans-serif !important;
-    font-size: .7rem !important;
-  }
+
   .button{
-    font-family: 'Open Sans Light', sans-serif !important;
-    font-size: .7rem !important;
+    font-family: 'Open Sans Light', sans-serif;
+    font-size: 1rem !important;
   }
+
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width:40em) and (max-width: 65.063em) {
+   h2{
+    font-size: 1.4em;
+  }
 } /* min-width 641px, medium screens */
