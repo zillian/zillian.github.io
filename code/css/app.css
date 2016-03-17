@@ -91,42 +91,42 @@ h2{
 
 
 .orbit-next  {
-   background: url("/assets/microsites/code/img/Arrow_white_right.png") no-repeat;
+   background: url("img/Arrow_white_right.png") no-repeat;
    
 }
 
 .orbit-next:hover  {
-   background: url("/assets/microsites/code/img/Arrow_white_right.png") no-repeat;
+   background: url("img/Arrow_white_right.png") no-repeat;
    background-color: rgba(0, 0, 0, 0.0) !important;
 }
 
 .orbit-prev  {
-   background: url("/assets/microsites/code/img/Arrow_white_left.png") no-repeat;
+   background: url("img/Arrow_white_left.png") no-repeat;
    
 }
 
 .orbit-prev:hover  {
-   background: url("/assets/microsites/code/img/Arrow_white_left.png") no-repeat;
+   background: url("img/Arrow_white_left.png") no-repeat;
    background-color: rgba(0, 0, 0, 0.0) !important;
 }
 
 #features .orbit-next  {
-   background: url("/assets/microsites/code/img/Arrow_grey_right.png") no-repeat;
+   background: url("img/Arrow_grey_right.png") no-repeat;
    
 }
 
 #features .orbit-next:hover  {
-   background: url("/assets/microsites/code/img/Arrow_grey_right.png") no-repeat;
+   background: url("img/Arrow_grey_right.png") no-repeat;
    background-color: rgba(0, 0, 0, 0.0) !important;
 }
 
 #features .orbit-prev  {
-   background: url("/assets/microsites/code/img/Arrow_grey_left.png") no-repeat;
+   background: url("img/Arrow_grey_left.png") no-repeat;
    
 }
 
 #features .orbit-prev:hover  {
-   background: url("/assets/microsites/code/img/Arrow_grey_left.png") no-repeat;
+   background: url("img/Arrow_grey_left.png") no-repeat;
    background-color: rgba(0, 0, 0, 0.0) !important;
 }
 
@@ -158,7 +158,7 @@ h2{
 }
 
 #play{
-  background:url("/assets/microsites/code/img/playBGD.jpg");
+  background:url("img/playBGD.jpg");
   background-attachment: fixed;
   background-position: center;
   position:relative;
@@ -176,7 +176,7 @@ h2{
 }
 
 #control{
-  background:url("/assets/microsites/code/img/GradientBackground.png");
+  background:url("img/GradientBackground.png");
   position:relative;
   z-index:1;
   padding:0;
